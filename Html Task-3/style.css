@@ -107,3 +107,12 @@ textarea{
     border-radius: 4px;
     cursor: pointer;
 }
+.footer-container{
+    text-align: center;
+    background-color: rgb(28, 27, 27);
+    padding: 20px 0;
+}
+.footer-container small{
+    font-size: 20px;
+    color: #fff;
+}
