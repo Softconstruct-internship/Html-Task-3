@@ -25,6 +25,7 @@
 }
 .nav-container{
     background-color: black;
+    position: sticky;
     width: 100%;  
     top: 0;
 }
@@ -41,9 +42,13 @@
     color:black;
     cursor: pointer;
 }
-.main-section-container{
-    max-width: 400px;
-    background-color: #f1f1f1;
+.main-container{
+    display: flex;
+    width: 100%;
+}
+.main-container aside{
+    width: 550px;
+    background-color: #F1F1F1;
     padding: 20px;
 }
 .article-container{
@@ -59,4 +64,27 @@
 }
 .article-container p{
     padding: 15px 0 15px;
+}
+.container-section{
+    padding-left: 20px;
+}
+.container-section h2{
+    padding: 40px 0 20px;
+}
+.container-section p{
+    padding-top: 20px;
+}
+.form-style input,select,textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.form-style{
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
 }
