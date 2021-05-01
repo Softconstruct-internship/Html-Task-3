@@ -27,8 +27,6 @@
     background-color: black;
     width: 100%;  
     top: 0;
-    display: block;
-    position: sticky;
 }
 .nav-link{
     color: #fff;
@@ -43,8 +41,22 @@
     color:black;
     cursor: pointer;
 }
-.section-container{
+.main-section-container{
     max-width: 400px;
     background-color: #f1f1f1;
     padding: 20px;
+}
+.article-container{
+    background-color: #e6e4e4;
+    padding: 10px;
+    margin: 10px;
+}
+.post-heading{
+    padding: 15px 0 15px;
+}
+.article-container a{
+    color: #333;
+}
+.article-container p{
+    padding: 15px 0 15px;
 }
