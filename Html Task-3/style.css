@@ -4,76 +4,94 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 .header-container{
     padding: 20px;
     text-align: center;
     background-color: yellow;
     color: black;
 }
+
 .section-container{
     padding: 60px;
     background: #1abc9c;
 }
+
 .title-container{
     max-width: 700px;
     margin: auto;
     text-align: center;
     color: white;
 }
+
 .paragraph-style{
     padding-top: 20px;
 }
+
 .nav-container{
     background-color: black;
     position: sticky;
     width: 100%;  
     top: 0;
 }
+
 .nav-link{
     color: #fff;
     display: flex;
 }
+
 .nav-link li {
     padding: 20px;
     list-style: none;
 }
+
 .nav-link li:hover {
     background-color: blanchedalmond;
     color:black;
     cursor: pointer;
 }
+
 .main-container{
     display: flex;
     width: 100%;
 }
+
 .main-container aside{
     width: 550px;
     background-color: #F1F1F1;
     padding: 20px;
 }
+
 .article-container{
     background-color: #e6e4e4;
     padding: 10px;
     margin: 10px;
 }
+
 .post-heading{
     padding: 15px 0 15px;
 }
+
 .article-container a{
     color: #333;
 }
+
 .article-container p{
     padding: 15px 0 15px;
 }
+
 .container-section{
     padding-left: 20px;
 }
+
 .container-section h2{
     padding: 40px 0 20px;
 }
+
 .container-section p{
     padding: 20px 0 40px;
 }
+
 .form-style input,select,textarea {
     width: 100%;
     padding: 12px;
@@ -83,6 +101,7 @@
     margin-top: 6px;
     margin-bottom: 16px;
 }
+
 textarea{
     height: 250px;
 }
@@ -91,14 +110,17 @@ textarea{
     background-color: rgb(232, 232, 232);
     padding: 20px;
 }
+
 .main-container-map{
     display: flex;
     background-color: #E8E8E8;
 }
+
 .map-content{
     width: 36%;
     padding-top: 20px;
 }
+
 .button-style{
     background-color: #4CAF50;
     color: white;
@@ -107,11 +129,13 @@ textarea{
     border-radius: 4px;
     cursor: pointer;
 }
+
 .footer-container{
     text-align: center;
     background-color: rgb(28, 27, 27);
     padding: 20px 0;
 }
+
 .footer-container small{
     font-size: 20px;
     color: #fff;
